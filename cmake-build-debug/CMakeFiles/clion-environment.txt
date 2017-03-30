@@ -1,0 +1,2 @@
+Options: 
+CMake: 3.7.1@/home/svakhreev/ide/clion-2016.2.2/bin/cmake/bin/cmake

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/onvif_wrapper_test.dir/test/Test.cpp.o  -o onvif_wrapper_test -Wl,-rpath,/usr/local/lib -rdynamic libonvif_wrapper_static.a /usr/local/lib/libgsoapssl++.a /usr/local/lib/libssl.so /usr/local/lib/libcrypto.so -lpthread -ldl -lz libonvif_gsoap_static.a 

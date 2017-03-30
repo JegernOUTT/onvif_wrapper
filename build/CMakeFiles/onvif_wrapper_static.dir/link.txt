@@ -1,0 +1,2 @@
+/usr/bin/ar qc libonvif_wrapper_static.a  CMakeFiles/onvif_wrapper_static.dir/source/OnvifClientPtz.cpp.o CMakeFiles/onvif_wrapper_static.dir/source/Onvif.cpp.o CMakeFiles/onvif_wrapper_static.dir/source/OnvifClientImaging.cpp.o CMakeFiles/onvif_wrapper_static.dir/source/OnvifClientMedia.cpp.o CMakeFiles/onvif_wrapper_static.dir/source/OnvifClientDevice.cpp.o
+/usr/bin/ranlib libonvif_wrapper_static.a

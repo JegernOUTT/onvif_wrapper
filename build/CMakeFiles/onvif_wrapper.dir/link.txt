@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libonvif_wrapper.so -o libonvif_wrapper.so CMakeFiles/onvif_wrapper.dir/source/OnvifClientPtz.cpp.o CMakeFiles/onvif_wrapper.dir/source/Onvif.cpp.o CMakeFiles/onvif_wrapper.dir/source/OnvifClientImaging.cpp.o CMakeFiles/onvif_wrapper.dir/source/OnvifClientMedia.cpp.o CMakeFiles/onvif_wrapper.dir/source/OnvifClientDevice.cpp.o 

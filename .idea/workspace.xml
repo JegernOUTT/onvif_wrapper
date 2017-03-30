@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="onvif_wrapper" targetName="onvif_gsoap" />
+      <config projectName="onvif_wrapper" targetName="onvif_wrapper" />
+      <config projectName="onvif_wrapper" targetName="onvif_gsoap_static" />
+      <config projectName="onvif_wrapper" targetName="onvif_wrapper_static" />
+      <config projectName="onvif_wrapper" targetName="onvif_wrapper_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5de8937-56b2-4344-b905-d789dde4d883" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Test.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/Test.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5055">
+                  <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OnvifPod.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/OnvifPod.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6750">
+                  <caret line="450" column="0" lean-forward="false" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#817#947#1" expanded="false" />
+                    <element signature="e#954#1097#1" expanded="false" />
+                    <element signature="e#1104#1320#1" expanded="false" />
+                    <element signature="e#1327#1417#1" expanded="false" />
+                    <element signature="e#1424#1699#1" expanded="false" />
+                    <element signature="e#1706#1912#1" expanded="false" />
+                    <element signature="e#1919#1981#1" expanded="false" />
+                    <element signature="e#1988#2131#1" expanded="false" />
+                    <element signature="e#2138#2196#1" expanded="false" />
+                    <element signature="e#2203#2402#1" expanded="false" />
+                    <element signature="e#2409#2531#1" expanded="false" />
+                    <element signature="e#2535#2774#1" expanded="false" />
+                    <element signature="e#2778#2874#1" expanded="false" />
+                    <element signature="e#2878#3002#1" expanded="false" />
+                    <element signature="e#3009#3091#1" expanded="false" />
+                    <element signature="e#3098#3297#1" expanded="false" />
+                    <element signature="e#3301#3480#1" expanded="false" />
+                    <element signature="e#3487#3601#1" expanded="false" />
+                    <element signature="e#3608#3875#1" expanded="false" />
+                    <element signature="e#3882#4122#1" expanded="false" />
+                    <element signature="e#4129#4206#1" expanded="false" />
+                    <element signature="e#4213#4290#1" expanded="false" />
+                    <element signature="e#4297#4352#1" expanded="false" />
+                    <element signature="e#4359#4502#1" expanded="false" />
+                    <element signature="e#4509#4593#1" expanded="false" />
+                    <element signature="e#4600#4684#1" expanded="false" />
+                    <element signature="e#4691#4752#1" expanded="false" />
+                    <element signature="e#4759#4947#1" expanded="false" />
+                    <element signature="e#4954#5062#1" expanded="false" />
+                    <element signature="e#5069#5135#1" expanded="false" />
+                    <element signature="e#5142#5234#1" expanded="false" />
+                    <element signature="e#5241#5341#1" expanded="false" />
+                    <element signature="e#5348#5489#1" expanded="false" />
+                    <element signature="e#5496#5579#1" expanded="false" />
+                    <element signature="e#5586#5652#1" expanded="false" />
+                    <element signature="e#5659#5736#1" expanded="false" />
+                    <element signature="e#5743#5821#1" expanded="false" />
+                    <element signature="e#5828#5928#1" expanded="false" />
+                    <element signature="e#5935#6008#1" expanded="false" />
+                    <element signature="e#6015#6561#1" expanded="false" />
+                    <element signature="e#6568#6669#1" expanded="false" />
+                    <element signature="e#6676#6748#1" expanded="false" />
+                    <element signature="e#6755#6828#1" expanded="false" />
+                    <element signature="e#6835#6957#1" expanded="false" />
+                    <element signature="e#6964#7061#1" expanded="false" />
+                    <element signature="e#7068#7163#1" expanded="false" />
+                    <element signature="e#7170#7300#1" expanded="false" />
+                    <element signature="e#7307#7681#1" expanded="false" />
+                    <element signature="e#7688#8006#1" expanded="false" />
+                    <element signature="e#8013#8136#1" expanded="false" />
+                    <element signature="e#8143#8287#1" expanded="false" />
+                    <element signature="e#8294#8436#1" expanded="false" />
+                    <element signature="e#8443#8646#1" expanded="false" />
+                    <element signature="e#8653#8908#1" expanded="false" />
+                    <element signature="e#8915#9025#1" expanded="false" />
+                    <element signature="e#9032#9118#1" expanded="false" />
+                    <element signature="e#9125#9713#1" expanded="false" />
+                    <element signature="e#9720#9823#1" expanded="false" />
+                    <element signature="e#9830#9930#1" expanded="false" />
+                    <element signature="e#9941#10027#1" expanded="false" />
+                    <element signature="e#10034#10174#1" expanded="false" />
+                    <element signature="e#10181#10369#1" expanded="false" />
+                    <element signature="e#10376#10608#1" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OnvifClientImaging.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/OnvifClientImaging.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="720">
+                  <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OnvifClientImaging.cpp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/source/OnvifClientImaging.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="335">
+                  <caret line="112" column="77" lean-forward="false" selection-start-line="112" selection-start-column="77" selection-end-line="112" selection-end-column="77" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Utility.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/Utility.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OnvifClientPtz.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/source/OnvifClientPtz.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="5850">
+                  <caret line="390" column="0" lean-forward="false" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Onvif.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/source/Onvif.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6510">
+                  <caret line="434" column="124" lean-forward="false" selection-start-line="434" selection-start-column="124" selection-end-line="434" selection-end-column="124" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Onvif.hpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/Onvif.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1530">
+                  <caret line="102" column="48" lean-forward="false" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OnvifClientPtz.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/OnvifClientPtz.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4320">
+                  <caret line="288" column="38" lean-forward="false" selection-start-line="288" selection-start-column="38" selection-end-line="288" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="OnvifPod.hpp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/include/OnvifPod.hpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="316">
+                  <caret line="358" column="4" lean-forward="false" selection-start-line="358" selection-start-column="4" selection-end-line="358" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#817#947#1" expanded="false" />
+                    <element signature="e#954#1097#1" expanded="false" />
+                    <element signature="e#1104#1320#1" expanded="false" />
+                    <element signature="e#1327#1417#1" expanded="false" />
+                    <element signature="e#1424#1699#1" expanded="false" />
+                    <element signature="e#1706#1912#1" expanded="false" />
+                    <element signature="e#1919#1981#1" expanded="false" />
+                    <element signature="e#1988#2131#1" expanded="false" />
+                    <element signature="e#2138#2196#1" expanded="false" />
+                    <element signature="e#2203#2402#1" expanded="false" />
+                    <element signature="e#2409#2531#1" expanded="false" />
+                    <element signature="e#2535#2774#1" expanded="false" />
+                    <element signature="e#2778#2874#1" expanded="false" />
+                    <element signature="e#2878#3002#1" expanded="false" />
+                    <element signature="e#3009#3091#1" expanded="false" />
+                    <element signature="e#3098#3297#1" expanded="false" />
+                    <element signature="e#3301#3480#1" expanded="false" />
+                    <element signature="e#3487#3601#1" expanded="false" />
+                    <element signature="e#3608#3875#1" expanded="false" />
+                    <element signature="e#3882#4122#1" expanded="false" />
+                    <element signature="e#4129#4206#1" expanded="false" />
+                    <element signature="e#4213#4290#1" expanded="false" />
+                    <element signature="e#4297#4352#1" expanded="false" />
+                    <element signature="e#4359#4502#1" expanded="false" />
+                    <element signature="e#4509#4593#1" expanded="false" />
+                    <element signature="e#4600#4684#1" expanded="false" />
+                    <element signature="e#4691#4752#1" expanded="false" />
+                    <element signature="e#4759#4947#1" expanded="false" />
+                    <element signature="e#4954#5062#1" expanded="false" />
+                    <element signature="e#5069#5135#1" expanded="false" />
+                    <element signature="e#5142#5234#1" expanded="false" />
+                    <element signature="e#5241#5341#1" expanded="false" />
+                    <element signature="e#5348#5489#1" expanded="false" />
+                    <element signature="e#5496#5579#1" expanded="false" />
+                    <element signature="e#5586#5652#1" expanded="false" />
+                    <element signature="e#5659#5736#1" expanded="false" />
+                    <element signature="e#5743#5821#1" expanded="false" />
+                    <element signature="e#5828#5928#1" expanded="false" />
+                    <element signature="e#5935#6008#1" expanded="false" />
+                    <element signature="e#6015#6561#1" expanded="false" />
+                    <element signature="e#6568#6669#1" expanded="false" />
+                    <element signature="e#6676#6748#1" expanded="false" />
+                    <element signature="e#6755#6828#1" expanded="false" />
+                    <element signature="e#6835#6957#1" expanded="false" />
+                    <element signature="e#6964#7061#1" expanded="false" />
+                    <element signature="e#7068#7163#1" expanded="false" />
+                    <element signature="e#7170#7300#1" expanded="false" />
+                    <element signature="e#7307#7681#1" expanded="false" />
+                    <element signature="e#7688#8006#1" expanded="false" />
+                    <element signature="e#8013#8136#1" expanded="false" />
+                    <element signature="e#8143#8287#1" expanded="false" />
+                    <element signature="e#8294#8436#1" expanded="false" />
+                    <element signature="e#8443#8646#1" expanded="false" />
+                    <element signature="e#8653#8908#1" expanded="false" />
+                    <element signature="e#8915#9025#1" expanded="false" />
+                    <element signature="e#9032#9118#1" expanded="false" />
+                    <element signature="e#9125#9713#1" expanded="false" />
+                    <element signature="e#9720#9823#1" expanded="false" />
+                    <element signature="e#9830#9930#1" expanded="false" />
+                    <element signature="e#9941#10027#1" expanded="false" />
+                    <element signature="e#10034#10174#1" expanded="false" />
+                    <element signature="e#10181#10369#1" expanded="false" />
+                    <element signature="e#10376#10608#1" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ns2__CapabilityCategory&gt;</find>
+      <find>ns2__Vector2D</find>
+      <find>tt__Vector2D</find>
+      <find>tt__Vector1D</find>
+      <find>tt__PTZSpeed</find>
+      <find>tt__PTZVector</find>
+      <find>tt__StreamSetup</find>
+      <find>tt__Transport</find>
+      <find>tt__StreamType</find>
+      <find>tt</find>
+      <find>tt__</find>
+      <find>_ns11__GetConfigurationOptionsResponse</find>
+      <find>ConvertToPtzConfigOptions</find>
+      <find>Hello</find>
+      <find>Libs</find>
+      <find>GSOAP_FOUND</find>
+      <find>SSL_library_init</find>
+      <find>soap_init_re</find>
+      <find>name</find>
+      <find>namespaces</find>
+      <find>time</find>
+      <find>Profile</find>
+      <find>MediaUri</find>
+      <find>translation</find>
+      <find>ContinuousMove</find>
+      <find>timeout</find>
+      <find>move_spaces</find>
+      <find>MoveStatus</find>
+      <find>PTZCapabilities</find>
+      <find>enum</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/OnvifClientDevice.h" />
+        <option value="$PROJECT_DIR$/include/Utility.hpp" />
+        <option value="$PROJECT_DIR$/OnvifGsoap/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/onvif_gsoap/source/soapPTZBindingProxy.cpp" />
+        <option value="$PROJECT_DIR$/source/OnvifClientDevice.cpp" />
+        <option value="$PROJECT_DIR$/cmake/modules/FindGSOAP.cmake" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/onvif_gsoap/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/source/OnvifClientMedia.cpp" />
+        <option value="$PROJECT_DIR$/include/OnvifClientMedia.h" />
+        <option value="$PROJECT_DIR$/source/Onvif.cpp" />
+        <option value="$PROJECT_DIR$/include/Onvif.hpp" />
+        <option value="$PROJECT_DIR$/source/OnvifClientPtz.cpp" />
+        <option value="$PROJECT_DIR$/test/Test.cpp" />
+        <option value="$PROJECT_DIR$/include/OnvifPod.hpp" />
+        <option value="$PROJECT_DIR$/include/OnvifClientImaging.h" />
+        <option value="$PROJECT_DIR$/include/OnvifClientPtz.h" />
+        <option value="$PROJECT_DIR$/source/OnvifClientImaging.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="434" />
+    <option name="width" value="2562" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onvif_wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="SearchEverywhereHistoryKey" value="soap_init_REQUIRE_lib_v20840&#9;null&#9;null&#10;soap_serializeheader&#9;null&#9;null&#10;_tptz__AbsoluteMoveResponse&#9;null&#9;null&#10;soap_done&#9;null&#9;null" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onvif_gsoap/source" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="onvif_wrapper" TARGET_NAME="OnvifWrapper" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CabalRunConfiguration" factoryName="Haskell">
+      <module name="" />
+      <setting name="executableName" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <environmetVariables />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="DBNMethodRunConfiguration" factoryName="DB Method">
+      <category value="TEMPLATE" />
+      <compile-dependencies value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DBNMethodRunConfiguration" factoryName="DB Method (JDWP)">
+      <category value="TEMPLATE" />
+      <compile-dependencies value="true" />
+      <tcp-port-range from-number="4000" to-number="4999" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DBNStatementRunConfiguration" factoryName="DB Statement">
+      <category value="TEMPLATE" />
+      <compile-dependencies value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DBNStatementRunConfiguration" factoryName="DB Statement (JDWP)">
+      <category value="TEMPLATE" />
+      <compile-dependencies value="true" />
+      <tcp-port-range from-number="4000" to-number="4999" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="onvif_wrapper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="onvif_wrapper" TARGET_NAME="onvif_wrapper" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="onvif_wrapper_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="onvif_wrapper" TARGET_NAME="onvif_wrapper_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="onvif_gsoap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="onvif_wrapper" TARGET_NAME="onvif_gsoap" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="onvif_gsoap_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="onvif_wrapper" TARGET_NAME="onvif_gsoap_static" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="onvif_wrapper_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="onvif_wrapper" TARGET_NAME="onvif_wrapper_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="onvif_wrapper" RUN_TARGET_NAME="onvif_wrapper_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="onvif_wrapper" RUN_TARGET_NAME="onvif_wrapper_test" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.onvif_wrapper" />
+      <item index="1" class="java.lang.String" itemvalue="Application.onvif_wrapper_static" />
+      <item index="2" class="java.lang.String" itemvalue="Application.onvif_gsoap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.onvif_gsoap_static" />
+      <item index="4" class="java.lang.String" itemvalue="Application.onvif_wrapper_test" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Build All" />
+    </list>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OnvifWrapper" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="RuntimeDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5de8937-56b2-4344-b905-d789dde4d883" name="Default" comment="" />
+      <created>1481804669249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481804669249</updated>
+      <workItem from="1481804670635" duration="330000" />
+      <workItem from="1481806374337" duration="2030000" />
+      <workItem from="1481808712902" duration="122000" />
+      <workItem from="1481809401823" duration="15371000" />
+      <workItem from="1481881211670" duration="188000" />
+      <workItem from="1481881408571" duration="516000" />
+      <workItem from="1481881936217" duration="9081000" />
+      <workItem from="1481915048287" duration="14159000" />
+      <workItem from="1482146509006" duration="8000" />
+      <workItem from="1486368346004" duration="4562000" />
+      <workItem from="1486463116512" duration="7287000" />
+      <workItem from="1487162622506" duration="3966000" />
+      <workItem from="1487324558781" duration="23000" />
+      <workItem from="1487324600266" duration="4584000" />
+      <workItem from="1488130358649" duration="15000" />
+      <workItem from="1488130396067" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62272000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="434" width="2562" height="1092" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31332654" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41041666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15194908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.265625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2726348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31332654" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61241096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14335938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="31" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/nsmap.cpp" />
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/mecevp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3015">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/smdevp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/CredentialBinding.nsmap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/soapPTZBindingProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="770" column="110" lean-forward="false" selection-start-line="770" selection-start-column="110" selection-end-line="770" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/gsoap_onvif_complier_win32.bat" />
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/soapMedia2BindingProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/soapCredentialBindingProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/soapDeviceBindingProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/soapCredentialBindingProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/soapH.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="8615" column="0" lean-forward="true" selection-start-line="8615" selection-start-column="0" selection-end-line="8615" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/wsseapi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="53" column="67" lean-forward="false" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/soapImagingBindingProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/impl/OnvifClientImagingImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/soapMediaBindingProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="214" column="48" lean-forward="true" selection-start-line="214" selection-start-column="48" selection-end-line="214" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/soapDeviceBindingProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1824">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/soapC.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="66298" column="149" lean-forward="false" selection-start-line="66298" selection-start-column="111" selection-end-line="66298" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/OnvifClientDevice.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl/wsdlC.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="44" column="27" lean-forward="false" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/stdsoap2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="2971" column="52" lean-forward="false" selection-start-line="2971" selection-start-column="52" selection-end-line="2971" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/wsseapi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/mecevp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/smdevp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin/threads.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Загрузки/gsoap-2.8/gsoap/stdsoap2_ssl_cpp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="10404" column="12" lean-forward="false" selection-start-line="10404" selection-start-column="12" selection-end-line="10404" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/PTZBinding.nsmap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/soapPTZBindingProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="20" lean-forward="false" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/nsmap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/source/soapDisplayBindingProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/stdsoap2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="10324" column="31" lean-forward="false" selection-start-line="10324" selection-start-column="21" selection-end-line="10324" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/DeviceBinding.nsmap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/include/ImagingBinding.nsmap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/OnvifClientMedia.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1493">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake/modules/FindGSOAP.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onvif_gsoap/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/bandit/adapters/snowhouse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/6/functional">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1739" column="0" lean-forward="false" selection-start-line="1739" selection-start-column="0" selection-end-line="1739" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/bandit/grammar.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/6/tuple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="651" column="0" lean-forward="false" selection-start-line="651" selection-start-column="0" selection-end-line="651" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/OnvifClientMedia.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2745">
+          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Onvif.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6510">
+          <caret line="434" column="124" lean-forward="false" selection-start-line="434" selection-start-column="124" selection-end-line="434" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Onvif.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="48" lean-forward="false" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/OnvifClientPtz.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="390" column="0" lean-forward="false" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5055">
+          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/OnvifClientImaging.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/OnvifClientPtz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="288" column="38" lean-forward="false" selection-start-line="288" selection-start-column="38" selection-end-line="288" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/OnvifPod.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="358" column="4" lean-forward="false" selection-start-line="358" selection-start-column="4" selection-end-line="358" selection-end-column="4" />
+          <folding>
+            <element signature="e#817#947#1" expanded="false" />
+            <element signature="e#954#1097#1" expanded="false" />
+            <element signature="e#1104#1320#1" expanded="false" />
+            <element signature="e#1327#1417#1" expanded="false" />
+            <element signature="e#1424#1699#1" expanded="false" />
+            <element signature="e#1706#1912#1" expanded="false" />
+            <element signature="e#1919#1981#1" expanded="false" />
+            <element signature="e#1988#2131#1" expanded="false" />
+            <element signature="e#2138#2196#1" expanded="false" />
+            <element signature="e#2203#2402#1" expanded="false" />
+            <element signature="e#2409#2531#1" expanded="false" />
+            <element signature="e#2535#2774#1" expanded="false" />
+            <element signature="e#2778#2874#1" expanded="false" />
+            <element signature="e#2878#3002#1" expanded="false" />
+            <element signature="e#3009#3091#1" expanded="false" />
+            <element signature="e#3098#3297#1" expanded="false" />
+            <element signature="e#3301#3480#1" expanded="false" />
+            <element signature="e#3487#3601#1" expanded="false" />
+            <element signature="e#3608#3875#1" expanded="false" />
+            <element signature="e#3882#4122#1" expanded="false" />
+            <element signature="e#4129#4206#1" expanded="false" />
+            <element signature="e#4213#4290#1" expanded="false" />
+            <element signature="e#4297#4352#1" expanded="false" />
+            <element signature="e#4359#4502#1" expanded="false" />
+            <element signature="e#4509#4593#1" expanded="false" />
+            <element signature="e#4600#4684#1" expanded="false" />
+            <element signature="e#4691#4752#1" expanded="false" />
+            <element signature="e#4759#4947#1" expanded="false" />
+            <element signature="e#4954#5062#1" expanded="false" />
+            <element signature="e#5069#5135#1" expanded="false" />
+            <element signature="e#5142#5234#1" expanded="false" />
+            <element signature="e#5241#5341#1" expanded="false" />
+            <element signature="e#5348#5489#1" expanded="false" />
+            <element signature="e#5496#5579#1" expanded="false" />
+            <element signature="e#5586#5652#1" expanded="false" />
+            <element signature="e#5659#5736#1" expanded="false" />
+            <element signature="e#5743#5821#1" expanded="false" />
+            <element signature="e#5828#5928#1" expanded="false" />
+            <element signature="e#5935#6008#1" expanded="false" />
+            <element signature="e#6015#6561#1" expanded="false" />
+            <element signature="e#6568#6669#1" expanded="false" />
+            <element signature="e#6676#6748#1" expanded="false" />
+            <element signature="e#6755#6828#1" expanded="false" />
+            <element signature="e#6835#6957#1" expanded="false" />
+            <element signature="e#6964#7061#1" expanded="false" />
+            <element signature="e#7068#7163#1" expanded="false" />
+            <element signature="e#7170#7300#1" expanded="false" />
+            <element signature="e#7307#7681#1" expanded="false" />
+            <element signature="e#7688#8006#1" expanded="false" />
+            <element signature="e#8013#8136#1" expanded="false" />
+            <element signature="e#8143#8287#1" expanded="false" />
+            <element signature="e#8294#8436#1" expanded="false" />
+            <element signature="e#8443#8646#1" expanded="false" />
+            <element signature="e#8653#8908#1" expanded="false" />
+            <element signature="e#8915#9025#1" expanded="false" />
+            <element signature="e#9032#9118#1" expanded="false" />
+            <element signature="e#9125#9713#1" expanded="false" />
+            <element signature="e#9720#9823#1" expanded="false" />
+            <element signature="e#9830#9930#1" expanded="false" />
+            <element signature="e#9941#10027#1" expanded="false" />
+            <element signature="e#10034#10174#1" expanded="false" />
+            <element signature="e#10181#10369#1" expanded="false" />
+            <element signature="e#10376#10608#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ErrorWrap.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Utility.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/OnvifClientImaging.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="112" column="77" lean-forward="false" selection-start-line="112" selection-start-column="77" selection-end-line="112" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+/usr/local/include/onvif_wrapper/OnvifClientPtz.h
+/usr/local/include/onvif_wrapper/OnvifClientImaging.h
+/usr/local/include/onvif_wrapper/OnvifClientMedia.h
+/usr/local/include/onvif_wrapper/OnvifClientDevice.h
+/usr/local/include/onvif_wrapper/Utility.hpp
+/usr/local/include/onvif_wrapper/OnvifPod.hpp
+/usr/local/include/onvif_wrapper/Onvif.hpp
+/usr/local/include/onvif_wrapper/ErrorWrap.hpp
+/usr/local/lib/libonvif_wrapper.so
+/usr/local/lib/libonvif_wrapper_static.a
+/usr/local/lib/libonvif_gsoap.so
+/usr/local/lib/libonvif_gsoap_static.a

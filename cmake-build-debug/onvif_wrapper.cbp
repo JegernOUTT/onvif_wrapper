@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="onvif_wrapper"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\onvif_gsoap\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_gsoap_static">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_gsoap_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_gsoap_static"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_gsoap_static/fast">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_gsoap_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_gsoap_static/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_wrapper_test">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/onvif_wrapper_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_wrapper_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_wrapper_test/fast">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/onvif_wrapper_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_wrapper_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_wrapper">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_wrapper.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_wrapper"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_wrapper/fast">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_wrapper.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_wrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_wrapper_static">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_wrapper_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_wrapper_static"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_wrapper_static/fast">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_wrapper_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_wrapper_static/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_gsoap">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_gsoap.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_gsoap"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onvif_gsoap/fast">
+				<Option output="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/libonvif_gsoap.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWITH_OPENSSL"/>
+					<Add option="-DWITH_GZIP"/>
+					<Add option="-DWITH_IPV6"/>
+					<Add option="-DWITH_COOKIES"/>
+					<Add option="-DWITH_DOM"/>
+					<Add option="-DLINUX"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/src"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/wsdl"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/import"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/3rdparty/gsoap-2.8/gsoap/plugin"/>
+					<Add directory="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 onvif_gsoap/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/include/soapH.h">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/mecevp.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/nsmap.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/smdevp.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapC.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapCredentialBindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapDeviceBindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapDisplayBindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapImagingBindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapMedia2BindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapMediaBindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/soapPTZBindingProxy.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/source/wsseapi.cpp">
+			<Option target="onvif_gsoap_static"/>
+			<Option target="onvif_gsoap"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/source/Onvif.cpp">
+			<Option target="onvif_wrapper"/>
+			<Option target="onvif_wrapper_static"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/source/OnvifClientDevice.cpp">
+			<Option target="onvif_wrapper"/>
+			<Option target="onvif_wrapper_static"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/source/OnvifClientImaging.cpp">
+			<Option target="onvif_wrapper"/>
+			<Option target="onvif_wrapper_static"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/source/OnvifClientMedia.cpp">
+			<Option target="onvif_wrapper"/>
+			<Option target="onvif_wrapper_static"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/source/OnvifClientPtz.cpp">
+			<Option target="onvif_wrapper"/>
+			<Option target="onvif_wrapper_static"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/test/Test.cpp">
+			<Option target="onvif_wrapper_test"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/cmake/modules/FindGSOAP.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/svakhreev/Projects/CameraManagerCore/3rdParty/onvif_wrapper/onvif_gsoap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\onvif_gsoap\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
